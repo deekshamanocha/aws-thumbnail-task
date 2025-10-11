@@ -30,6 +30,6 @@ By completing these steps, we’ll learn how to use Lambda to carry out a file p
 
 6. To automatically run Lambda function when a new image is uploaded, configure an Amazon S3 trigger. This trigger can also be set up via the AWS CLI or console and links our source S3 bucket with the Lambda function.
 
-Before testing the full setup, invoke Lambda function manually with a sample event to ensure it runs as expected. Lambda events are JSON documents that include key details such as the bucket name, ARN, and object key.
+7. Before testing the full setup, invoke Lambda function manually with a sample event to ensure it runs as expected. Lambda events are JSON documents that include key details such as the bucket name, ARN, and object key.
 
-Once the function works correctly, upload an image to the source S3 bucket to test the complete workflow. The upload should automatically invoke the Lambda function, which will generate a resized version of the image and store it in the target S3 bucket.
+8. Once the function works correctly, upload an image to the source S3 bucket to test the complete workflow. The upload should automatically invoke the Lambda function, which will generate a resized version of the image and store it in the target S3 bucket.
